@@ -90,11 +90,15 @@ ecommerce/
 
 ### `JwtRestApiApplication.java`
 
-<img src= https://github.com/RickRamosss/ecommerce/blob/main/img/Untitled.png>
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/908a5305-28d3-4724-b2e7-857af83cfba2/Untitled.png)
+
+<img src= https://github.com/RickRamosss/ecommerce/blob/main/img/Untitled%20.png>
 
 - Esta é a classe principal que inicia a aplicação Spring Boot usando `SpringApplication.run`.
 
 ### `SecurityConfig.java`
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/c5fa0013-e504-45b4-8642-098316ba244e/Untitled.png)
 
 <img src= https://github.com/RickRamosss/ecommerce/blob/main/img/Untitled%20(1).png>
 
@@ -102,11 +106,15 @@ ecommerce/
 
 ### `AuthController.java`
 
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/7325b375-6d0a-46ca-8894-f77706d7d45b/Untitled.png)
+
 <img src= https://github.com/RickRamosss/ecommerce/blob/main/img/Untitled%20(2).png>
 
 - Controlador que lida com a autenticação. Possui um endpoint `/login` que recebe uma requisição de login e retorna um token JWT.
 
 ### `LoginRequest.java`
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/0e71f455-eacd-4141-9ecb-8105a7c872fe/Untitled.png)
 
 <img src= https://github.com/RickRamosss/ecommerce/blob/main/img/Untitled%20(3).png>
 
@@ -114,11 +122,15 @@ ecommerce/
 
 ### `JwtUtil.java`
 
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/3928f0ab-1c8d-4123-9caa-03ee3d9910d4/Untitled.png)
+
 <img src= https://github.com/RickRamosss/ecommerce/blob/main/img/Untitled%20(4).png>
 
 - Utilitário para manipulação de tokens JWT, incluindo geração e extração de claims.
 
 ### `AuthService.java`
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/48ba1219-b51c-448c-876e-9d46354e4fcb/Untitled.png)
 
 <img src= https://github.com/RickRamosss/ecommerce/blob/main/img/Untitled%20(5).png>
 
@@ -134,7 +146,9 @@ Com base na análise, o fluxo básico do sistema é:
 4. **Processamento de autenticação** (`AuthService.java`)
 5. **Geração de token JWT** (`AuthService.java`)
 
-<img src= (https://github.com/RickRamosss/ecommerce/blob/main/img/ecommerce_auth_flow.png)>
+![ecommerce_auth_flow.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/966f58b0-5278-4aa3-8556-cdd1d222728d/79a94ea6-381c-44a8-8876-295eff9f2a30/ecommerce_auth_flow.png)
+
+<img src= https://github.com/RickRamosss/ecommerce/blob/main/img/ecommerce_auth_flow.png>
 
 
 
