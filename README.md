@@ -2,8 +2,6 @@
 
 O projeto está organizado da seguinte maneira:
 
-```css
-cssCopiar código
 ecommerce/
 ├── demo/
 │   ├── .gitignore
