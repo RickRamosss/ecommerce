@@ -2,6 +2,7 @@
 
 O projeto está organizado da seguinte maneira:
 
+```css
 ecommerce/
 ├── demo/
 │   ├── .gitignore
@@ -39,7 +40,6 @@ ecommerce/
 │   │                   └── ecommerce/
 │   │                       └── JwtRestApiApplicationTests.java
 
-```
 
 ### Descrição dos Arquivos e Diretórios
 
